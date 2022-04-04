@@ -1,13 +1,10 @@
 ﻿TO DO:
 
 - usunąć/zosatwić: [RELACJA NA ŻYWO] ,[NAGRANIE], [WIDEO] itd
-- uszczegółowienie szukania informacji które chce*
 - ładne menu
-- export linków do pliku .txt na pulpicie
 - dodanie kolejnych stronek z newsami
 - przebudowanie do aplikacji okienkowej
-- wyciąganie dodatkowych informacji z strony? (*zobaczenie textu i szukanie słów kluczy)
-- 
+- upper, lower
 
 
 document.querySelectorAll("section article section") + [0-7]
@@ -22,5 +19,22 @@ XD:
 xdd = document.querySelectorAll("section article section")[2]
 xddd = xdd.querySelectorAll("section div div div div")[3]
 
+Console.WriteLine("**************************************************");
+Console.WriteLine($"Number {number}:");
+Console.WriteLine($"In the article titled: {info.Name}");
+Console.WriteLine($"Your keywords come out {keywordsTimes} times!");
+Console.WriteLine($"You can read this article here!:");
+Console.WriteLine(info.Href);
+Console.WriteLine("**************************************************");
+Console.WriteLine("");             
+//File.WriteAllText($"C:/Users/szymo/Desktop/news-{data[0]}-{data[1]}.txt", document);
 
+Console.WriteLine($"Nazwa: {info.Name},\nLink: {info.Href}");
+Console.WriteLine();
+Console.ReadKey();
+Console.WriteLine(info.Href);
 
+            //document.querySelector("section article section")
+                        //Console.WriteLine($"Text tutaj to:\n{textAll.Trim(mychar).Replace("\n", "")}");
+                                    //Console.WriteLine($"In this article your keywords come out {appearances} times!");
+            //Console.ReadKey();

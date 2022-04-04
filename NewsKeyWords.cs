@@ -6,8 +6,7 @@ namespace webScraper
 {
     public class NewsKeyWords
     {
-        List<string> keyWords = new List<string>() { }; //{"Prezydent", "osób", "Putina", "Zełenski", "list", "generała", "poszerzaniu", "programu",
-        //"granicy", "broni", "polityki", "centra", "osiągnąć", "Orban"};//{ "gra", "gry", "esport", "komputer", "gracz" };
+        List<string> keyWords = new List<string>() { };
 
         public void SetWords()
         {
@@ -37,8 +36,6 @@ namespace webScraper
                 }
             }
             return appearances.ToString();
-            //Console.WriteLine($"In this article your keywords come out {appearances} times!");
-            //Console.ReadKey();
         }
     }
 }
