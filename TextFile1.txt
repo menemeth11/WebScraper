@@ -1,0 +1,26 @@
+﻿TO DO:
+
+- usunąć/zosatwić: [RELACJA NA ŻYWO] ,[NAGRANIE], [WIDEO] itd
+- uszczegółowienie szukania informacji które chce*
+- ładne menu
+- export linków do pliku .txt na pulpicie
+- dodanie kolejnych stronek z newsami
+- przebudowanie do aplikacji okienkowej
+- wyciąganie dodatkowych informacji z strony? (*zobaczenie textu i szukanie słów kluczy)
+- 
+
+
+document.querySelectorAll("section article section") + [0-7]
+.detailContent -> dokładnie co chce
+
+zxc = document.querySelectorAll("p.hyphenate") - w ten sposób mogę wypisać po kolei same fragremty textu z kazdego artykułu
+trzeba by było tylko uzyć pętli na podstawie .length ile jest hyphenate
+
+
+
+XD:
+xdd = document.querySelectorAll("section article section")[2]
+xddd = xdd.querySelectorAll("section div div div div")[3]
+
+
+
