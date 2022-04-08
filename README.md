@@ -1,7 +1,7 @@
 # Web Scraper
 
 ## General info
-Simple program to take some information from web page (up to 16 underpages).
+Simple program to extract some data from a web page (up to 16 subpages).
 I made this application to understand how web scraping works.
 
 ## Technologies
@@ -10,13 +10,13 @@ I made this application to understand how web scraping works.
 
 ## Setup
 - Program -> line 34 -> provide the location of the template file (template.txt)
-- Program -> line 42 -> provide a location to save the file
+- Program -> line 42 -> provide a location where the .txt file will be save
 
-Program work only with this page: https://wiadomosci.onet.pl/
+Program works only with this page: https://wiadomosci.onet.pl/
 
 ## Features
-- you can choose keywords from articles  
-- output as .txt file on computer with date of used 
+- you can choose desired keywords from articles  
+- output saved as a .txt file with the date of file creation as it's name 
 
 ## How it works (video)
 https://youtu.be/n_Sw2FVizVQ
