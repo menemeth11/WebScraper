@@ -26,16 +26,16 @@ namespace webScraper
         {
             string[] splitText = text.Split(" ");
 
-            int appearances = 0;
+            int occurences = 0;
 
             foreach (var word in splitText)
             {
                 if (keyWords.Contains(word))
                 {
-                    appearances += 1;
+                    occurences += 1;
                 }
             }
-            return appearances.ToString();
+            return occurences.ToString();
         }
     }
 }
