@@ -14,11 +14,6 @@ namespace webScraper
             var newsDetails = new NewsDetails();
             var newsKeyWords = new NewsKeyWords();
 
-/*            foreach (var item in newsKeyWords.keyWords)
-            {
-                Console.WriteLine(item);
-            }*/
-
             var number = 0;
 
             List<string> allText = new List<string>() { };
