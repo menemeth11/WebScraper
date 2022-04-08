@@ -1,0 +1,7 @@
+************************************************************
+Number {number}:
+In the article titled: {name}
+Your keywords come out {keywords} times!
+You can read this article here!:
+{href}
+************************************************************
