@@ -9,9 +9,10 @@ I made this application to understand how web scraping works.
 - HtmlAgilityPack
 
 ## Setup
-Program -> line 34 -> provide the location of the template file (template.txt)
-Program -> line 42 -> provide a location to save the file
-
+'''
+-Program -> line 34 -> provide the location of the template file (template.txt)
+-Program -> line 42 -> provide a location to save the file
+'''
 Program work only with this page: https://wiadomosci.onet.pl/
 
 ## Features
