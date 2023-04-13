@@ -5,7 +5,7 @@ Simple program to extract some data from a web page (up to 16 subpages).
 I made this application to understand how web scraping works.
 
 ## Technologies
-- c#
+- C#
 - HtmlAgilityPack
 
 ## Setup
